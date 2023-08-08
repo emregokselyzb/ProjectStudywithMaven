@@ -25,6 +25,7 @@ public class UserTest {
         for (User user : users) {
             if(T.test(user))
             System.out.println(user.toString());
+            System.out.println(user.toString());
 
         }
     }
