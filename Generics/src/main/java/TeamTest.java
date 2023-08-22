@@ -12,6 +12,8 @@ public class TeamTest {
         liverpool.addPlayer(zidane);
         liverpool.addPlayer(beckham);
         galatasaray.addPlayer(joe);
+        galatasaray.addPlayer(joe);
+
 
         System.out.println(galatasaray.numPlayers());
 

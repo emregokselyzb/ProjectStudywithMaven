@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>Generics</module>
+        <module>CollectionReview</module>
+        <module>Lambda</module>
     </modules>
 
     <properties>
