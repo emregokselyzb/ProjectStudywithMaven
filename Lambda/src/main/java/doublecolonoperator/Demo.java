@@ -1,6 +1,7 @@
 package doublecolonoperator;
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 
 public class Demo {
 
@@ -29,6 +30,17 @@ public class Demo {
 
         BiFunction<String, Integer,String> fn2=String::substring;
         System.out.println(fn2.apply("Developer",6));
+
+        Consumer<Integer> display= i -> System.out.println(i);
+        display.accept(20);
+
+        Consumer<Integer> display2= System.out::println;
+        display2.accept(50);
+
+        BiFunction<MyClass,Integer,Double> v2=MyClass::method;
+
+        BiFunction<String,String,String> v3=String::concat;
+
 
 
     }

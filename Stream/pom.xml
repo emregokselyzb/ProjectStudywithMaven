@@ -5,28 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>ProjectStudy</artifactId>
+        <artifactId>Lambda</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>Lambda</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>untitled</module>
-        <module>Stream</module>
-    </modules>
+    <artifactId>Stream</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
+
         <dependency>
-            <groupId>org.jetbrains</groupId>
-            <artifactId>annotations</artifactId>
-            <version>24.0.0</version>
-            <scope>compile</scope>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
